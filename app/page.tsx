@@ -168,7 +168,7 @@ function PipelineVisualizer() {
       setStatuses((prev: any) => ({ ...prev, [stage.id]: "success" }))
       addLog(`Stage ${stage.name} completed successfully.`)
     }
-    addLog("Pipeline finished successfully. Site is live!")
+    addLog("Pipeline finished successfully. Production deployment successful.")
     setActiveStageIndex(-1)
   }
 
