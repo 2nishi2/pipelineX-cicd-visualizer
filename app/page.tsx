@@ -385,8 +385,12 @@ export default function Page() {
         <div className="max-w-4xl space-y-8 relative">
           <Badge>Version 2.0 Launch</Badge>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance leading-[1.1]">
+HEAD
             <h1>PipelineX – CI/CD Pipeline Visualizer</h1>
 
+
+            PipelineX – CI/CD Visualizer
+experiment-layout
           </h1>
           <p className="text-xl text-neutral-500 max-w-2xl leading-relaxed">
             A visual journey A visual journey that explains how CI/CD pipelines work in real projects. Automate your workflow, minimize
