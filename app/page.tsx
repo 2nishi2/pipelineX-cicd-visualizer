@@ -154,7 +154,7 @@ function PipelineVisualizer() {
 
         if (stage.id === "test" && shouldFail) {
           await new Promise((r) => setTimeout(r, 1000))
-          addLog("ERROR: Test suite failed with exit code 1")
+          addLog("ERROR: CI tests failed during integration stage")
           addLog("FAIL: Integration test 'User Checkout Flow' timed out")
           setStatuses((prev: any) => ({ ...prev, [stage.id]: "failed" }))
           addLog("Pipeline terminated due to failure.")
